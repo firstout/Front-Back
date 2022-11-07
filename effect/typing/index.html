@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Auto Typing Effect - Easy Tutorials</title>
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div style='font-size : 100px; font-weight : 900;'>Welcome! I'm <span class="auto-type"></span></div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed(".auto-type", {
+            strings: ["Duckey", "Seonmin"],
+            typeSpeed: 150,
+            backSpeed: 100,
+            loop: true
+        })
+
+    </script>
+</body>
+</html>
